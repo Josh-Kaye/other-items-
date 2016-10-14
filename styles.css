@@ -1,24 +1,30 @@
 /*Style sheet.css*/
 
-body{
-  color:red;
+
+.dropdown{ /*Nav-bar-START*/
+  background-color: white;
+  font-size:40px;
+  font-family:Georgia;
+  display: inline;
+  appearance: none;
 }
-
-
-
-
-
-
-
-
-
-
+.btn{
+  background-color: inherit;
+}/*Nav-bar-END*/
 
 
 /*background information*/
-
 body {
   background-color: #ffffff;
+}
+
+.container-fluid{
+  background-color: #83cba5;
+  height:1000px;
+}
+.container-fluid-head {
+  padding:30px;
+  padding-top: 30px;
 }
 
 .container { /*Cotainer-screen-ajustmeant-command*/
@@ -48,18 +54,4 @@ body {
   margin: 0 auto; /*this will cause the div to be in the center*/
 }
 
-.txt_interactive_class {
-  padding: 100px;
-}
-
 /* Continer-inner*/
-
-container-inner{
-padding-top: 100px;
-
-}
-
-container-fluid {
-  background-color: #595959;
-
-}
