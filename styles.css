@@ -1,57 +1,59 @@
-/*Style sheet.css*/
-
-
-.dropdown{ /*Nav-bar-START*/
-  background-color: white;
-  font-size:40px;
-  font-family:Georgia;
-  display: inline;
-  appearance: none;
-}
-.btn{
-  background-color: inherit;
-}/*Nav-bar-END*/
-
-
-/*background information*/
-body {
+/*style sheet*/
+.header{/*Page-header*/
+  display: inline-block;
+  max-height: 60px;
+  max-width: inherit;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
   background-color: #ffffff;
 }
 
-.container-fluid{
-  background-color: #83cba5;
-  height:1000px;
-}
-.container-fluid-head {
-  padding:30px;
-  padding-top: 30px;
-}
 
-.container { /*Cotainer-screen-ajustmeant-command*/
-  height: 100%;
-  width: 100%;
-  min-height: 1000px;
-  min-width: 1000px;
-
+.header-logo{
+  margin: 15px;
+  max-width: 1000px;
+  height: 75px;
+}
+.container{
+align-self: center;
+border: 1px solid black;
+height: 300px;
 }
 
-
-.container-inner{
-  height: 100%;
-  width: 100%;
-  min-height: 1000px;
-  min-width: 1000px;
-  }
-
-
-.body{ /* This is the fixed inner border = Page heading*/
-  font-size:32px;
-  font-family: Gotham Black;
-  color: #ffffff;
-  height: 1em;
-  height: auto; /*if more info comes on the page, it will stretch down*/
-  width: 1000px;
-  margin: 0 auto; /*this will cause the div to be in the center*/
+.heading-index-page{
+  font-family: Georgia, Arial;
+  text-align: center;
+  font-size: 24px;
 }
-
-/* Continer-inner*/
+.par-intro{
+  font-family: Arial;
+}
+.img-lnk-one{
+    max-width: 37%;
+    margin-left: 50px;
+    width:inherit;
+    display: inline-block;
+      /*background: black url(http://www.electrictoolbox.com/images/rangitoto-3072x200.jpg) no-repeat;*/
+    background-size: 100% 100%;
+}
+.nav-lnk{
+  text-decoration:none;
+  font-family:Avenir, Georgia, Arial;
+  font-size:14px;
+  color: black;
+}
+li{
+  text-align: right;
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 auto 2px 25px;
+}
+nav{
+  text-align: right;
+  padding: 30px;
+  padding-top: 5px;
+}
